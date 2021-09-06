@@ -1,0 +1,97 @@
+body{
+    background : url("https://cdn.wallpapersafari.com/46/55/x0D7zK.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.card{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+    background: #285faf;
+background: linear-gradient(90deg,#285faf 0%, #6698d9 80%);
+background: -webkit-linear-gradient(90deg,#285faf 0%, #6698d9 80%);
+background: -moz-linear-gradient(90deg,#285faf 0%, #6698d9 80%);
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.shop{
+    color: #feb92e;
+}
+.shop-now{
+    text-align: center;
+    background: #ef7701;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pricing{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.pricing1{
+    background: #feb92e ;
+    border-right: 2px solid #5488cd;
+    padding: 5px;
+    line-height: 15px ;
+}
+.pricing2{
+    color:#285faf ;
+    background: #feb92e ;
+    padding: 5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+    display:flex;
+    height: 25px;
+    justify-content: space-around;
+}
+
+.website{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background: white;
+    color: black;
+    padding : 5px;
+}
+.logo,.design{
+    border-radius: 50%;
+}
+img{
+    height : 25px;
+}
+
+.shopping-girl{
+    height: fit-content;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.whole-content{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+   box-shadow: 6px 9px 5px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 9px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 9px 5px -1px rgba(0,0,0,0.75);
+overflow: hidden;
+}
